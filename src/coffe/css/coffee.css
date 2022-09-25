@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Dangrek&family=Josefin+Sans:wght@700&family=Lobster&family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.coffee {
+  width: min(80%, 1200px);
+  margin: 0 auto;
+  min-height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.coffee__nav {
+  width: min(90%, 1200px);
+  margin: 0 auto;
+  padding-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.coffee__link {
+  display: inline-block;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 400;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.coffee__Logo {
+  font-family: 'Lobster', cursive;
+  color: rgb(251, 237, 206);
+  font-size: 50px;
+  text-decoration: none;
+}
+
+.coffee__links {
+  position: relative;
+  display: flex;
+  gap: 25px;
+  list-style: none;
+}
+
+.coffee__cotent{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.coffee__prase{
+  font-size: 40px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 700;
+}
+
+.coffee__prase span{
+  font-family: 'Dangrek', cursive;
+}
+
+.btn{
+  background-color: transparent;
+  padding: 10px 0;
+  color: rgb(230, 240, 205);
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  border: none;
+}
+
+.coffee__imgIni{
+  width: 300px;
+  height: 450px;
+  background-color: white;
+  border-radius: 20px;
+  background-image: url("https://tse4.mm.bing.net/th?id=OIP.4a4flzHv9AQKe94lO-hFxQHaLH&pid=Api&P=0") ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+@media (max-width: 850px){
+    .coffee{
+      flex-direction: column-reverse;
+      margin-top: 20px;
+    }
+
+    body{
+      overflow-x: hidden;
+    }
+
+    .coffee__imgIni{
+      width: 80%;
+    }
+}
