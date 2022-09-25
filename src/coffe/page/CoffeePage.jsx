@@ -1,4 +1,4 @@
-import { NavBar } from '../components/navBar'
+import { NavBar } from '../components'
 import '../css/coffee.css'
 import { useCoffee } from '../hooks/useCoffee'
 import { FiArrowRight } from "react-icons/fi";
