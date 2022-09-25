@@ -2,7 +2,7 @@ import { FiLogIn, FiKey, FiUser } from 'react-icons/fi';
 import { Link } from 'react-router-dom';
 import { useFormRegister } from '../hooks';
 import { AiOutlineMail } from "react-icons/ai";
-import { Loading } from '../components/loading';
+import { Loading } from '../components';
 import { Error } from '../components/Error';
 
 export const Register = () => {
